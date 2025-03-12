@@ -1,0 +1,17 @@
+theme: jekyll-theme-slate
+
+title: "Mike Chen – Data Science Portfolio"
+description: "Lead Data Scientist | AI & ML Specialist | PhD Astrophysicist"
+
+# Optional metadata for SEO
+author: "Mike Chen"
+github: "mcyc"
+linkedin: "mike-chen-phd"
+
+# Navigation links (optional)
+show_downloads: false  # Hide download links for repositories
+
+# Footer settings (optional)
+footer-links:
+  LinkedIn: "https://www.linkedin.com/in/mike-chen-phd"
+  GitHub: "https://github.com/mcyc"
