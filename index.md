@@ -1,15 +1,12 @@
-# Mike Chen – Data Science Portfolio
-**Lead Data Scientist | AI & ML Specialist | PhD Astrophysicist**  
+Welcome to my **data science portfolio**! I specialize in AI/ML solutions, causal inference, and large-scale data analysis.  
 
-Welcome to my portfolio! I specialize in AI/ML solutions, causal inference, and large-scale data analysis.  
-Explore my projects below:  
+### Featured Projects
+- [**MUFASA**](https://github.com/mcyc/mufasa) – AI-powered spectral fitting Python library (see [Documentation](https://mufasa.readthedocs.io))
+- [**CRISPy**](https://github.com/mcyc/crispy) – Statistical multi-dimensional density ridge finding Python library (see [Documentation](https://crispy-learn.readthedocs.io))
+- [**Predictive ML**](https://github.com/mcyc/predictive-ml/tree/main) – Repository showcasing predictive models, which includes:
+  - [Flight Price Prediction](https://github.com/mcyc/predictive-ml/tree/main/flight-price) - predicts flight price using Random Forest and XGBoost.   
 
-## Featured Projects
-- [MUFASA](https://github.com/mcyc/mufasa) – AI-powered spectral fitting tool  
-- [CRISPy](https://github.com/mcyc/crispy) – High-dimensional density ridge finder
-- [Predictive ML](https://github.com/mcyc/predictive-ml/tree/main) – Repository showcasing predictive models, such as [Flight Price Prediction](https://github.com/mcyc/predictive-ml/tree/main/flight-price), that uses Random Forest, XGBoost, and etc.   
-
-## About Me
+### About Me
 [LinkedIn](https://www.linkedin.com/in/mike-chen-phd) | [GitHub](https://github.com/mcyc)  
 - 12+ years in ML & AI  
 - Strong communicator
