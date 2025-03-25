@@ -1,43 +1,54 @@
-# Chirpy Starter
+# Mike Chen's Portfolio Website
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+This repository contains the source code for my personal portfolio website, built with [Jekyll](https://jekyllrb.com/) using the [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy). It highlights selected data science, machine learning, and AI projects with polished narratives and interactive visuals.
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+Visit the live site at: [https://mcyc.github.io](https://mcyc.github.io)
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+## Features
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+- Clean, mobile-friendly design using Chirpy theme
+- Hosted with GitHub Pages and automatically deployed via GitHub Actions
+- Responsive sidebar, search, dark/light mode toggle, and PWA support
+- Organized posts with tags, categories, and archives
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+## Project Structure
+
+```bash
+├── _posts/              # blog posts (in Markdown)
+├── assets/img/          # custom images, avatar, and favicon
+├── _config.yml          # site configuration
+├── Gemfile              # dependencies
+├── index.html           # homepage
+└── ...
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+## Development
 
-## Usage
+To build and preview locally:
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-## Contributing
+Then visit [http://localhost:4000](http://localhost:4000) to view the site.
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+To test a production-like build:
 
-## License
+```bash
+JEKYLL_ENV=production bundle exec jekyll build
+```
 
-This work is published under [MIT][mit] License.
+## Deployment
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+This site is automatically deployed via GitHub Actions. On push to `main`, the site is built and published to the `gh-pages` branch.
+
+You can monitor deployment status under the GitHub Actions tab.
+
+## Credits
+
+Powered by [Jekyll](https://jekyllrb.com/) and the amazing [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy) by [Cotes Chung](https://github.com/cotes2020).
+
+---
+
+Feel free to explore the source code or reach out if you'd like to discuss the content, projects, or collaborate!
