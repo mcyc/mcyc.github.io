@@ -5,14 +5,23 @@
     object-fit: cover;
     border-radius: 50%;
     margin-right: 0.5rem;
+    margin-left: -0.2rem;
   }
 
   #topbar-wrapper {
+    height: 54px; // default is 48px
     background-color: var(--sidebar-bg) !important;
+    transition: background-color 0.3s ease-in-out;
+    border-bottom: 1px solid var(--main-border-color);
   }
 
   #topbar-title {
     text-align: left;
-    padding-left: 0.25rem; // adjust as needed
+    padding-left: 0.1rem; // adjust as needed
   }
+
+  #topbar {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
  }
