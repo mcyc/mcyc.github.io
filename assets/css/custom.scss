@@ -1,7 +1,13 @@
+/* Hide avatar in topbar by default */
+#topbar-avatar {
+  display: none !important;
+}
+
 @media (max-width: 768px) {
   #topbar-avatar {
-    width: 32px;
-    height: 32px;
+    display: inline-block !important;
+    width: 2rem;
+    height: 2rem;
     object-fit: cover;
     border-radius: 50%;
     margin-right: 0.5rem;
@@ -9,7 +15,7 @@
   }
 
   #topbar-wrapper {
-    height: 54px; // default is 48px
+    height: 3.375rem; // ~54px
     background-color: var(--sidebar-bg) !important;
     transition: background-color 0.3s ease-in-out;
     border-bottom: 1px solid var(--main-border-color);
@@ -17,7 +23,7 @@
 
   #topbar-title {
     text-align: left;
-    padding-left: 0.1rem; // adjust as needed
+    padding-left: 0.1rem; // tweak if needed
   }
 
   #topbar {
