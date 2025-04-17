@@ -6,7 +6,7 @@ order: 1
 toc: true
 ---
 
-Lead Data Scientist with 12+ years of experience delivering impact through machine learning, 
+Lead Data Scientist with 10+ years of experience delivering impact through machine learning, 
 experimentation, and large-scale data systems.
 A player-coach leader—mentoring teams, developing collaborative roadmaps, and 
 communicating complex insights clearly to both executive and non-technical stakeholders.
